@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@font-face {
+  font-family: "Outfit";
+  src: url("../src/assets/Outfit.ttf");
+}
+
+body {
+  font-family: "Outfit";
 }

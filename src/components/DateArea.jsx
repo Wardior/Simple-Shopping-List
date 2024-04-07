@@ -1,5 +1,5 @@
 import React from "react";
-import { useDate } from "../hooks/custom.date";
+import { useDate } from "../hooks/cus.date";
 
 function DateArea() {
   const currentDay = useDate();

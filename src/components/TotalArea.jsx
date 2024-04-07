@@ -6,8 +6,8 @@ function TotalArea() {
 
   return (
     <div className=" bg-blue-300 rounded-b-md py-2 px-6 flex justify-end ">
-      <p className="text-md">
-        Total: <span>{itemsTotal}</span>
+      <p className="font-normal">
+        Total: <span className="font-medium">{itemsTotal}</span> product(s)
       </p>
     </div>
   );
