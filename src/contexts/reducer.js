@@ -6,6 +6,7 @@ export const itemsReducer = (state, action) => {
         current: event.target.value,
       };
 
+    // add item to the list
     case "ADD_ITEM":
       event.preventDefault();
       return {
@@ -14,12 +15,14 @@ export const itemsReducer = (state, action) => {
         current: "",
       };
 
+    // remove item from the list
     case "DELETE_ITEM":
       return {
         ...state,
         items: state.items.filter((item) => item !== action.payload),
       };
 
+    // increase a specific item's quantity
     case "INCREASE_QUANTITY":
       return {
         ...state,
@@ -28,6 +31,7 @@ export const itemsReducer = (state, action) => {
         ),
       };
 
+    // decrease a specific item's quantity
     case "DECREASE_QUANTITY":
       return {
         ...state,
@@ -40,6 +44,7 @@ export const itemsReducer = (state, action) => {
           .filter((item) => item.amount > 0),
       };
 
+    // check / uncheck an item
     case "CHECK_ITEM":
       return {
         ...state,
