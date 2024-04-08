@@ -12,7 +12,7 @@ function ItemCase({ item }) {
           type="checkbox"
           checked={item.check}
           onChange={() => checkItem(item)}
-          className="accent-blue-400"
+          className="accent-blue-200"
         />
         <hr className="w-0.5 h-8 bg-blue-300 mx-2" />
         <span

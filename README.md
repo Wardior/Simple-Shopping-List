@@ -1,5 +1,3 @@
 # Shopping list app
 
-[En] This app shows a simple list of shopping items, that allows users to add an item to the list, increase/decrease it's quantity and remove the item from the list.
-
-[Fr] Cette app demontre une simple liste des courses, qui permet aux utilisateurs d'ajouter un item à la liste, augemnter/diminuer sa quantité et d'en retirer de la liste.
+This project shows a simple list of shopping items built with React js & tailwind css, that allows users to add an item to the list, increase/decrease it's quantity and remove the item from the list.
